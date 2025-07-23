@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Student Registration System</h1>
+      <p>
+       The Student Registration System is a web app to add, edit, and delete student records.
+It captures details like name, student ID, email, and contact number.
+Data is stored in the browser using local storage for persistence.
+Built with HTML, CSS, and JavaScript for smooth user interaction.
+      </p>
+    </header>
+
+    <section class="container">
+      <section class="student-container">
+        <h2>Student Details</h2>
+        <form id="studentdetails">
+          <input
+            type="text"
+            id="studentname"
+            name="studentname"
+            placeholder="Enter Your Name"
+            required
+          />
+
+          <input
+            type="number"
+            id="studentid"
+            name="studentid"
+            placeholder="Enter Your ID"
+            required
+          />
+
+          <input
+            type="text"
+            id="studentclass"
+            name="studentclass"
+            placeholder="Enter Your class name"
+            required
+          />
+
+          <input
+            type="email"
+            id="studentemail"
+            name="studentemail"
+            placeholder="Enter Your Email ID"
+            required
+          />
+
+          <input
+            type="number"
+            id="studentcontact"
+            name="studentcontact"
+            placeholder="Enter Your contact number"
+            required
+          />
+          <button id="button">Add Student</button>
+        </form>
+      </section>
+
+      <section class="display-container">
+        <h2>Student Records</h2>
+        <table id = "studentdata">
+          <thead>
+            <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Class</th>
+            <th>EMail ID</th>
+            <th>Contact Number</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+          </thead>
+          <tbody>
+            <tr >
+                <td colspan="7">Add students details to display student records..</td>
+            </tr>
+          </tbody>
+          
+        </table>
+      </section>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  background-color:beige;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px 30px 20px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+label {
+  display: none;
+  font-size: 16px;
+}
+
+.student-container {
+  width: 22%;
+  box-shadow: 2px 2px 7px lightgray;
+    background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+input {
+  height: 35px;
+  width:90%;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  outline: none;
+}
+
+button {
+  margin: 10px 0px 10px 0px;
+  height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+input:focus {
+  border: 1px solid blueviolet;
+}
+.display-container{
+    width: 70%;
+    max-height: 404px;
+    overflow-y: auto;
+}
+
+table{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    
+    letter-spacing: 1px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 12px;
+    
+    background-color: white;
+    
+    
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: lightcyan;
+}
+
+th,td{
+border: 1px solid black;
+padding: 8px 10px
+}
+
+#edit{
+    color:brown;
+}
+
+#delete{
+    color: red;
+}
+
+
+
+
